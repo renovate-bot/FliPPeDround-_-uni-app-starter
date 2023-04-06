@@ -1,0 +1,14 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "references.preferredLocation": "peek",
+  "files.associations": {
+    "pages.json": "jsonc",
+    "manifest.json": "jsonc"
+  },
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false
+}
