@@ -10,4 +10,6 @@ onHide(() => {
 })
 </script>
 
-<style></style>
+<style>
+@import './app.scss';
+</style>

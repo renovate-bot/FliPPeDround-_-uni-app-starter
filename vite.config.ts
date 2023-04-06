@@ -4,16 +4,15 @@ import Components from '@uni-helper/vite-plugin-uni-components'
 import AutoImport from 'unplugin-auto-import/vite'
 import UnoCSS from 'unocss/vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     Components({
       dts: 'src/components.d.ts',
     }),
     AutoImport({
-      imports: ['vue', 'pinia', 'uni-app'],
+      imports: ['vue', 'uni-app', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
-      dirs: ['src/composables', 'src/stores'],
+      dirs: ['src/hooks'],
       vueTemplate: true,
     }),
     uni(),
